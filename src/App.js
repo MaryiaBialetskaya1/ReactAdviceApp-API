@@ -14,11 +14,13 @@ function App() {
     const data = await res.json();
     setActivity(data);
     console.log(data);
+    console.log(res);
   };
 
   return (
     <div className="App">
       <h3>{activity.activity}</h3>
+      <button onClick={getActivity}>new activity</button>
     </div>
   );
 }
