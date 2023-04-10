@@ -1,3 +1,43 @@
+svg {
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.svgOne {
+  z-index: -2;
+}
+.svgTwo {
+  z-index: -1;
+}
+.svgThree {
+  z-index: -3;
+}
+.container {
+  display: inline-block;
+  position: absolute;
+  width: 100%;
+  padding-bottom: 100%;
+  vertical-align: middle;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+}
+.pathOne {
+  stroke: none;
+  fill: rgba(30, 144, 225, 0.5);
+}
+.pathTwo {
+  stroke: none;
+  fill: rgba(153, 50, 204, 0.5);
+}
+.pathThree {
+  stroke: none;
+  fill: rgba(220, 20, 60, 0.5);
+}
+body {
+  overflow: hidden;
+}
 .App {
   text-align: center;
 }
