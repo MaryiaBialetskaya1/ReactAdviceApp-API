@@ -19,8 +19,12 @@ function App() {
 
   return (
     <div className="App">
-      <h3>{activity.activity}</h3>
-      <button onClick={getActivity}>new activity</button>
+      <div className="buttonContainer">
+        <h3>{activity.activity}</h3>
+        <button className="button" onClick={getActivity}>
+          new activity
+        </button>
+      </div>
 
       <div className="container">
         <svg
