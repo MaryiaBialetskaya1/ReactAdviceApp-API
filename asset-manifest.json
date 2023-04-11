@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/ReactAdviceApp-API/static/css/main.80578b50.css",
-    "main.js": "/ReactAdviceApp-API/static/js/main.7ea8481a.js",
+    "main.js": "/ReactAdviceApp-API/static/js/main.642b56f9.js",
     "static/js/787.1deee706.chunk.js": "/ReactAdviceApp-API/static/js/787.1deee706.chunk.js",
     "static/media/video.mp4": "/ReactAdviceApp-API/static/media/video.1e9cf4f77ee566ba095c.mp4",
     "index.html": "/ReactAdviceApp-API/index.html",
     "main.80578b50.css.map": "/ReactAdviceApp-API/static/css/main.80578b50.css.map",
-    "main.7ea8481a.js.map": "/ReactAdviceApp-API/static/js/main.7ea8481a.js.map",
+    "main.642b56f9.js.map": "/ReactAdviceApp-API/static/js/main.642b56f9.js.map",
     "787.1deee706.chunk.js.map": "/ReactAdviceApp-API/static/js/787.1deee706.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.80578b50.css",
-    "static/js/main.7ea8481a.js"
+    "static/js/main.642b56f9.js"
   ]
 }
