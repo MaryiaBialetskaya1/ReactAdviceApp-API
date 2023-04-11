@@ -57,8 +57,6 @@ function App() {
     const res = await fetch(url);
     const data = await res.json();
     setActivity(data);
-    console.log(data);
-    console.log(res);
   };
 
   return (
