@@ -28,23 +28,66 @@ svg {
 }
 .pathOne {
   stroke: none;
-  fill: rgba(30, 144, 225, 0.5);
+  fill: rgba(250, 219, 210, 0.5);
 }
 .pathTwo {
   stroke: none;
-  fill: rgba(153, 50, 204, 0.5);
+  fill: rgba(226, 211, 207, 0.5);
 }
 .pathThree {
   stroke: none;
-  fill: rgba(220, 20, 60, 0.5);
+  fill: rgba(247, 245, 236);
 }
 body {
   overflow: hidden;
 }
 .buttonContainer {
-  position: relative;
-  z-index: 10;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
 }
 .button {
   cursor: pointer;
+}
+.button {
+  display: inline-block;
+  padding: 0.5em 3em;
+  border: 0.16em solid #d5b4b4;
+  margin: 0 0.3em 0.3em 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: rgb(134, 112, 112);
+  text-align: center;
+  transition: all 0.15s;
+}
+.button:hover {
+  color: #4d4d4d;
+  border-color: #4d4d4d;
+  cursor: pointer;
+}
+.button:active {
+  color: #4d4d4d;
+  border-color: #4d4d4d;
+}
+.title {
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: rgb(134, 112, 112);
+  font-family: "josefin sans";
+  font-weight: 700;
+  font-size: 45px;
+}
+@media screen and (max-width: 900px) {
+  .button {
+    display: block;
+    margin: 0.4em auto;
+  }
+  .title {
+    font-size: 25px;
+  }
 }

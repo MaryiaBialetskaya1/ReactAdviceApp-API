@@ -20,7 +20,7 @@ function App() {
   return (
     <div className="App">
       <div className="buttonContainer">
-        <h3>{activity.activity}</h3>
+        <h3 className="title">{activity.activity}</h3>
         <button className="button" onClick={getActivity}>
           new activity
         </button>
