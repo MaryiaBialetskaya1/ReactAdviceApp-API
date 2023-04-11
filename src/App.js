@@ -1,5 +1,6 @@
 import "./App.css";
 import { useEffect, useState } from "react";
+import video from "./video.mp4";
 
 function App() {
   const [activity, setActivity] = useState("");
@@ -19,53 +20,57 @@ function App() {
 
   return (
     <div className="App">
+      <video autoPlay muted loop>
+        <source src={video} type="video/mp4" />
+      </video>
       <div className="buttonContainer">
         <h3 className="title">{activity.activity}</h3>
         <button className="button" onClick={getActivity}>
           new activity
         </button>
       </div>
-
-      <div className="container">
-        <svg
-          viewBox="0 0 500 500"
-          preserveAspectRatio="xMinYMin meet"
-          className="svgOne"
-        >
-          <path
-            className="pathOne"
-            d="M0, 100 C150, 200 350,
+      <div className="wrap">
+        <div className="container">
+          <svg
+            viewBox="0 0 500 500"
+            preserveAspectRatio="xMinYMin meet"
+            className="svgOne"
+          >
+            <path
+              className="pathOne"
+              d="M0, 100 C150, 200 350,
                 0 500, 100 L500, 00 L0, 0 Z"
-          ></path>
-        </svg>
-      </div>
+            ></path>
+          </svg>
+        </div>
 
-      <div className="container">
-        <svg
-          className="svgTwo"
-          viewBox="0 0 500 500"
-          preserveAspectRatio="xMinYMin meet"
-        >
-          <path
-            className="pathTwo"
-            d="M0, 80 C300, 0 400,
+        <div className="container">
+          <svg
+            className="svgTwo"
+            viewBox="0 0 500 500"
+            preserveAspectRatio="xMinYMin meet"
+          >
+            <path
+              className="pathTwo"
+              d="M0, 80 C300, 0 400,
                 300 500, 50 L500, 00 L0, 0 Z"
-          ></path>
-        </svg>
-      </div>
+            ></path>
+          </svg>
+        </div>
 
-      <div className="container">
-        <svg
-          className="svgThree"
-          viewBox="0 0 500 500"
-          preserveAspectRatio="xMinYMin meet"
-        >
-          <path
-            className="pathThree"
-            d="M0, 100 C150, 300 350,
+        <div className="container">
+          <svg
+            className="svgThree"
+            viewBox="0 0 500 500"
+            preserveAspectRatio="xMinYMin meet"
+          >
+            <path
+              className="pathThree"
+              d="M0, 100 C150, 300 350,
                 0 500, 100 L500, 00 L0, 0 Z"
-          ></path>
-        </svg>
+            ></path>
+          </svg>
+        </div>
       </div>
     </div>
   );
